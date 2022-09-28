@@ -1,0 +1,94 @@
+
+
+.Nav{
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 80px;
+    background-color: rgb(51, 49, 50);
+    display: flex ;
+    flex-wrap: wrap;
+   
+    box-shadow: 0px 0px 15px 1px hwb(0 0% 100%);
+    padding-left: 10px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.nav-links{
+    margin: auto auto auto auto;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.nav-links button{
+    background-color : transparent;
+    color: rgb(215, 184, 184) ;
+    border-style: none;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    min-width: 10vw;
+    height: 50px;
+    font-size: 20px
+}
+
+.nav-links button:hover{
+    background-color : rgb(244, 224, 224);
+    color: black;
+    border-style: none;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    min-width: 10vw;
+    height: 50px;
+    font-size: 20px
+}
+
+#user{
+    margin-bottom: 5px;
+    height: 100px;
+    margin-bottom:auto 40px auto 40px;
+    padding: 15px;
+    padding-bottom: 0px;
+    padding-right: 40px;
+    display: inline-flex;
+}
+
+#user h5{
+    font-size: 20px;
+    color: rgb(240, 231, 231);
+    padding-top: 10px;
+    margin: auto;
+    font-weight:600;
+    font-family:  Optima, sans-serif;
+}
+
+#user h1{
+    font-size: 13px;
+    color: rgba(251, 251, 251, 0.653);
+    font-weight: 200;
+    margin: 0px auto auto auto;
+
+}
+
+.Nav img{
+    margin:auto auto;
+    width: 15vw;
+}
+.avatar{
+    border-color: red ;
+    margin: 10px 10px 10px 10px;
+    padding: 6px;
+}
+.user-details{
+    margin: auto;
+    margin: 10px 10px 10px 10px;
+    padding: 1px;
+    text-align: right;
+}
+
